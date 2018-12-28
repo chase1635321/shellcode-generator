@@ -14,5 +14,5 @@ while cmd != "exit":
     if cmd == "clear":
         os.system("clear")
     if cmd == "generate":
-        os.system("gcc src/shellcode.c -o src/shellcode.x");
+        os.system("gcc shellcode.c -o src/shellcode.x");
         os.system("./src/generate_shellcode.sh")
